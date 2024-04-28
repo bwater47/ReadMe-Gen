@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -116,34 +117,7 @@ function init() {
   inquirer.prompt(questions).then((answers) => {
     console.log(answers);
     const githubLink = `https://github.com/${answers.GithubUsername}`;
-    const data = `# ${answers.Title}
-
-## Description
-${answers.Description}
-
-## Table of Contents
-${answers["Table of Contents"]}
-
-## Installation
-${answers.Installation}
-
-## Usage
-${answers.Usage}
-
-## License
-${answers.License}
-
-## Contribution
-${answers.Contribution}
-
-## Tests
-${answers.Tests}
-
-## Questions
-GitHub Username: [${answers.GithubUsername}](${githubLink})
-Email: ${answers.Email}
-
-${answers.Questions}`;
+    const data = generateMarkdown(answers, githubLink);
     writeToFile("README.md", data);
   });
 }
