@@ -117,26 +117,35 @@ function init() {
     console.log(answers);
     const githubLink = `https://github.com/${answers.GithubUsername}`;
     const data = `# ${answers.Title}
-        ## Description
-        ${answers.Description}
-        ## Table of Contents
-        ${answers["Table of Contents"]}
-        ## Installation
-        ${answers.Installation}
-        ## Usage
-        ${answers.Usage}
-        ## License
-        ${answers.License}
-        ## Contribution
-        ${answers.Contribution}
-        ## Tests
-        ${answers.Tests}
-        ## Questions
-        GitHub Username: [${answers.GithubUsername}](${githubLink})
-        Email: ${answers.Email}
-        ${answers.Questions}`;
+
+## Description
+${answers.Description}
+
+## Table of Contents
+${answers["Table of Contents"]}
+
+## Installation
+${answers.Installation}
+
+## Usage
+${answers.Usage}
+
+## License
+${answers.License}
+
+## Contribution
+${answers.Contribution}
+
+## Tests
+${answers.Tests}
+
+## Questions
+GitHub Username: [${answers.GithubUsername}](${githubLink})
+Email: ${answers.Email}
+
+${answers.Questions}`;
     writeToFile("README.md", data);
   });
 }
-// Function call to initialize app
+
 init();
