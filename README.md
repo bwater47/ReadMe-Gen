@@ -27,7 +27,7 @@ Generating a README.md file: Use node.js inside of VS Code, and target the index
 Link: <a href="#" alt="live site link">Live Link</a>
 
 README.md screenshots:
-![img](./assets/images/#.png)
+![img](./assets/images/READMEGen.png)
 
 ## Support
 
