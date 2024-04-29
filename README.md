@@ -73,9 +73,7 @@ Chatgpt. ChatGPT. (04/28/2024). https://openai.com/chatgpt
 
 ## Roadmap
 
-User Story: N/A
-
-Acceptance Criteria: N/A
+Tests: N/A
 
 ## Project status
 Complete
