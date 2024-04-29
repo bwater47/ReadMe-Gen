@@ -24,7 +24,10 @@ You'll need to install GitBash, VS Code, and Node.js. From here you will need kn
 ## Usage
 
 Generating a README.md file: Use node.js inside of VS Code, and target the index.js file when using the "node path.file" command in the terminal on VS Code. This will prompt you with questions that you will fill out. Once completed you will recieve a message in the console that tells you where the README.md file is that you have generated.
-Link: <a href="#" alt="live site link">Live Link</a>
+
+ReadMe-Gen sample: [https://docs.google.com/document/d/1WMk-lqSAXMWpLxWJKqHxGPX0hFvzSFSz46DRb57WjcM/edit?usp=sharing](https://docs.google.com/document/d/1WMk-lqSAXMWpLxWJKqHxGPX0hFvzSFSz46DRb57WjcM/edit?usp=sharing)
+
+ReadMe-Gen video: [https://drive.google.com/file/d/1yBHVXSvU2U6-Nnn2QI4QlLqZBsQbj-Pr/view?usp=sharing](https://drive.google.com/file/d/1yBHVXSvU2U6-Nnn2QI4QlLqZBsQbj-Pr/view?usp=sharing)
 
 README.md screenshots:
 ![img](./assets/images/READMEGen.png)
