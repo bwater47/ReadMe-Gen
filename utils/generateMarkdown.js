@@ -1,6 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(License) {
+  // If statement that passes in the License and returns the appropriate badge else returns an empty string
   if (License === "GNU GPLv3") {
     return `![Static Badge](https://img.shields.io/badge/GNU_GPLv3-License-red)`;
   } else if (License === "Apache License 2.0") {
@@ -17,6 +18,7 @@ function renderLicenseBadge(License) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(License) {
+  // If statement that passes in the License and returns the appropriate link else returns an empty string
   if (License === "GNU GPLv3") {
     return `[GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)`;
   } else if (License === "Apache License 2.0") {
@@ -32,6 +34,7 @@ function renderLicenseLink(License) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
+// If there is no license, return an N/A else return the license
 function renderLicenseSection(License) {
   if (License === "None") {
     return "N/A";
@@ -44,7 +47,10 @@ function renderLicenseSection(License) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  // This is a const variable for the github link that sets the variable to a template string which includes the github username from the data object
   const githubLink = `https://github.com/${data.GithubUsername}`;
+  // This is a return statement that returns a template string with the data object passed in.
+  // The template string includes the title, license badge, description, table of contents, installation, usage, license badge, license section, contributing, tests, github link, email, and questions.
   return `
   # ${data.Title}
 
@@ -90,5 +96,5 @@ function generateMarkdown(data) {
 
   Questions: ${data.Questions}`.trim();
 }
-
+// This exports the generateMarkdown function to be used in the index.js file or any other file that requires it.
 module.exports = generateMarkdown;
