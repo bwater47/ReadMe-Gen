@@ -3,16 +3,14 @@ Application that generates a README.md for the user.
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+- My motivation for building this application was to create something that helps coders generate a README.md file for their repo.
+- This project was built to help coders create a README.md file for their projects.
+- This solves the problem of not knowing the process of creating a README.md.
+- In this project I learned that you can use node.js to run, and test your javascript files from the CLI in VS Code.
 
 ## Table of Contents (Optional)
 
-The README is long, here is a table of contents to make it easy for users to find what they need.
+Here is a table of contents to make it easy for users to locate which section they need.
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -21,11 +19,11 @@ The README is long, here is a table of contents to make it easy for users to fin
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+You'll need to install GitBash, VS Code, and Node.js. From here you will need knowledge on how to clone a repo from GitHub over to your device to store it locally. Once its stored locally in your device you can open VSCode. Lastly once VSCode is running, open the CLI (Command-Line-Interface), and type node index.js to be prompted with the questions for the README.md.
 
 ## Usage
 
-Generating a README.md file: Use node.js inside of vs code, and target the index.js file when using the "node path.file" command in the Git Bash terminal on vs code (CTRL)
+Generating a README.md file: Use node.js inside of VS Code, and target the index.js file when using the "node path.file" command in the terminal on VS Code. This will prompt you with questions that you will fill out. Once completed you will recieve a message in the console that tells you where the README.md file is that you have generated.
 Link: <a href="#" alt="live site link">Live Link</a>
 
 README.md screenshots:
@@ -37,16 +35,12 @@ N/A
 
 ## Credits
 
-People who supported this project were bwater47 Link: <a href="https://github.com/bwater47" alt="GitHub Link">GitHub profile link</a> You can contact us through our github profiles.
+People who worked on this project were bwater47 Link: <a href="https://github.com/bwater47" alt="GitHub Link">GitHub profile link</a> You can contact me through our github profiles.
 List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+[https://choosealicense.com/](https://choosealicense.com/).
 
 ## Badges
 
@@ -54,7 +48,7 @@ The last section of a high-quality README file is the license. This lets other d
 
 ## Features
 
-If your project has a lot of features, list them here.
+README.md Generator: Uses Node.js, GitBash, VS Code, and NPM.
 
 ## Contributing
 Contributing is allowed if you're in the U of U Coding Bootcamp. Contact us on the slack channel for information. [Contributor Covenant](https://www.contributor-covenant.org/)
@@ -75,12 +69,10 @@ Chatgpt. ChatGPT. (04/28/2024). https://openai.com/chatgpt
 • All other sources, links, and information utilized within the project were obtained from the provided sources mentioned in this paragraph. This includes class materials, modules, TA guidance, instructor-provided resources, as well as communication through platforms such as Slack or Discord. Additionally, numerous links and resources were provided within the assignment instructions and demonstrated during class sessions.
 
 ## Roadmap
-1. Get my file to prompt questions.
-2. Get my file to prompt questions with the data needed to fill out certain parts in the
-3. Make my application write the file when the prompt is finished.
-4. Get my file to write into the dist folder so its seperate from the README.md.
-5. Fill out the README.md for the ReadMe-Gen.
-6. Publish the page to git pages.
+
+User Story: N/A
+
+Acceptance Criteria: N/A
 
 ## Project status
-In-Progress
+Complete

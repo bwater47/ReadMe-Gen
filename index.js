@@ -42,9 +42,9 @@ const questions = [
         value: "[License](#license)",
       },
       {
-        name: "Contribution",
+        name: "Contributing",
         checked: true,
-        value: "[Contribution](#contribution)",
+        value: "[Contributing](#contributing)",
       },
       {
         name: "Tests",
@@ -76,7 +76,7 @@ const questions = [
   },
   {
     type: "input",
-    name: "Contribution",
+    name: "Contributing",
     message: "Please provide contribution guidelines.",
   },
   {
