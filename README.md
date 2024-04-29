@@ -20,11 +20,11 @@ Here is a table of contents to make it easy for users to locate which section th
 
 ## Installation
 
-You'll need to install GitBash, VS Code, and Node.js. From here you will need knowledge on how to clone a repo from GitHub over to your device to store it locally. Once its stored locally in your device you can open VSCode. Lastly once VSCode is running, open the CLI (Command-Line-Interface), and type node index.js to be prompted with the questions for the README.md.
+You'll need to install GitBash, VS Code, and Node.js. From here you will need knowledge on how to clone a repo from GitHub over to your device to store it locally. Once its stored locally in your device you can open VSCode. Lastly once VSCode is running, open the CLI (Command-Line-Interface), make sure the current directory (CD) is targeted at the assets folder, and type node index.js to be prompted with the questions for the README.md.
 
 ## Usage
 
-Generating a README.md file: Use node.js inside of VS Code, and target the index.js file when using the "node path.file" command in the terminal on VS Code. This will prompt you with questions that you will fill out. Once completed you will recieve a message in the console that tells you where the README.md file is that you have generated.
+Generating a README.md file: Use node.js inside of VS Code, make sure you are inside of the assets folder in the terminal using the CD command in the CLI of VS Code (CTRL + `), and target the index.js file when using the "node path.file" command in the terminal on VS Code. This will prompt you with questions that you will fill out. Once completed you will recieve a message in the console that tells you where the README.md file is that you have generated.
 
 ReadMe-Gen sample: [https://docs.google.com/document/d/1WMk-lqSAXMWpLxWJKqHxGPX0hFvzSFSz46DRb57WjcM/edit?usp=sharing](https://docs.google.com/document/d/1WMk-lqSAXMWpLxWJKqHxGPX0hFvzSFSz46DRb57WjcM/edit?usp=sharing)
 
@@ -39,7 +39,8 @@ N/A
 
 ## Credits
 
-People who worked on this project were bwater47 Link: <a href="https://github.com/bwater47" alt="GitHub Link">GitHub profile link</a> You can contact the contributors through the github profiles listed.
+People who worked on this project were bwater47. You can contact the contributors through the github profiles links listed here.
+- Link: <a href="https://github.com/bwater47" alt="GitHub Link">GitHub Profile</a>
 
 ## License
 
