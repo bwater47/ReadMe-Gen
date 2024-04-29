@@ -1,4 +1,5 @@
 # ReadMe-Gen
+![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 Application that generates a README.md for the user.
 
 ## Description
@@ -38,16 +39,12 @@ N/A
 
 ## Credits
 
-People who worked on this project were bwater47 Link: <a href="https://github.com/bwater47" alt="GitHub Link">GitHub profile link</a> You can contact me through our github profiles.
-List your collaborators, if any, with links to their GitHub profiles.
+People who worked on this project were bwater47 Link: <a href="https://github.com/bwater47" alt="GitHub Link">GitHub profile link</a> You can contact the contributors through the github profiles listed.
 
 ## License
 
-[https://choosealicense.com/](https://choosealicense.com/).
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+![Static Badge](https://img.shields.io/badge/MIT-License-Blue)
+This is an [https://choosealicense.com/licenses/mit/](https://choosealicense.com/licenses/mit/) license.
 
 ## Features
 
