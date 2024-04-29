@@ -107,6 +107,10 @@ const questions = [
 function writeToFile(fileName, data) {
   // This is a const variable that sets the file path to the Dist folder and the file name passed in.
   const filePath = `Dist/${fileName}`;
+  // Create the dist folder if it doesn't exist
+  if (!fs.existsSync('Dist')) {
+    fs.mkdirSync('Dist');
+  }
   // This is a function that writes the file to the file path and data passed in.
   fs.writeFile(filePath, data, (err) => {
     // This is an if statement that throws an error if there is an error if the file is not written.
