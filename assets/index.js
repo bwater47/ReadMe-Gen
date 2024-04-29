@@ -113,7 +113,7 @@ function writeToFile(fileName, data) {
     if (err) {
       throw err;
     }
-    console.log(`${fileName} has been created in the Dist folder!`);
+    console.log(`The ${fileName} file has been created!`);
   });
 }
 
