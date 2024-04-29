@@ -97,7 +97,7 @@ const questions = [
   {
     type: "input",
     name: "Questions",
-    message: "Please provide any additional questions.",
+    message: "Please provide text for how a user will reach you with additional questions.",
   },
 ];
 // make const variables for questions to use as parameter in the init function
